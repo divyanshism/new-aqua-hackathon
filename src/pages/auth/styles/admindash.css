@@ -1,0 +1,107 @@
+/* src/styles/AdminDashboard.css */
+
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fb;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  background-color: #003c43;
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.sidebar li:hover,
+.sidebar .active {
+  background-color: #00575f;
+  padding-left: 10px;
+}
+
+/* Main content */
+.dashboard-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.dashboard-content h1 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+}
+
+.card h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+/* Colors */
+.card.blue {
+  border-left: 8px solid #007bff;
+}
+
+.card.green {
+  border-left: 8px solid #28a745;
+}
+
+.card.orange {
+  border-left: 8px solid #fd7e14;
+}
+
+.card.red {
+  border-left: 8px solid #dc3545;
+}
+.dashboard-footer-image {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.dashboard-footer-image img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,31 @@
+.results-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
